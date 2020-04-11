@@ -1,1 +1,1 @@
-![img](hands.jpg)
+![img](rock.jpg)
