@@ -1,0 +1,84 @@
+h1{
+  color: white;
+  margin: 150px 20%;
+  font-family: Brushstroke, fantasy;
+  font-size: 60px;
+  border: 1px solid white;
+  padding: 25px 150px 1% 150px;
+  display: flex;
+  justify-content: center;
+}
+
+p, div,h2, #rock, #paper, #scissors{
+  text-align: center;
+  color: white;
+}
+
+p{
+  font-size: 18px;
+}
+
+table {
+  margin: 0 auto;
+  width: 20%;
+}
+
+body{
+  background-color: white;
+  background-image: url(/Users/resilient-coders30/Downloads/rock_paper_scissors/hands.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 50%;
+  font-family: Brushstroke, fantasy;
+}
+
+#humanScore, #computerScore {
+  font-size: 40px;
+}
+
+#rock, #paper, #scissors{
+  color: black;
+  display: inline-block;s
+  float: left;
+  background: none;
+  color: white;
+  padding: 5px 4%;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Brushstroke, fantasy;
+}
+
+#rock{
+  margin-left: 33%;
+}
+
+#status{
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  h1{
+    margin: 80px 20% 50px 20%;
+  }
+
+  #rock{
+    margin-left: 19%;
+  }
+
+}
+
+@media (min-width: 601px) and (max-width: 1294px){
+  body{
+    background-size: cover;
+    background-position: 55% 55%;
+  }
+
+  h1{
+    margin: 80px 20% 50px 20%;
+  }
+}
